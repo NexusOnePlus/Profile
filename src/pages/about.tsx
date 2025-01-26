@@ -1,9 +1,9 @@
 import gaaa from './../assets/gaaa.webp'
 function About () {
   return (
-    <div className='grid grid-cols-6 place-items-center p-14 w-full'>
+    <div className='grid md:grid-cols-6 place-items-center gap-10 p-10 md:p-14 w-full'>
     <div className='col-span-3'>
-        <h1 className='text-5xl font-extrabold'>About</h1>
+        <h1 className=' text-3xl md:text-5xl font-extrabold'>About</h1>
         <p className="text-2xl mt-10 grid gap-1.5">
             <h1 className="text-green-400 font-bold">Email: </h1>
             <h1>wv35788@gmail.com</h1>
@@ -13,7 +13,7 @@ function About () {
             <a href='https://github.com/NexusOnePlus'> NexusOnePlus</a>
         </p>
     </div>
-    <img className=" col-span-3 col-start-4 w-xs" alt='a' src={gaaa} />
+    <img className=" md:col-span-3 md:col-start-4 col-start-2 w-xs" alt='a' src={gaaa} />
 </div>  )
 }
 
